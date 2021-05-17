@@ -1,0 +1,63 @@
+body {
+    background-image: url('/elements/pexels-s-migaj-747964.jpg');
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    border-radius: 10px;
+    /* background-color:#FDFCCF; */
+    /* color: white; */
+}
+
+#leftheader {
+    margin: 5px 10px 5px 100px;
+    padding: 8px 8px;
+}
+
+#rightheader {
+    margin: 5px 10px 5px 500px;
+    display: flex;
+}
+
+.rightdiv {
+    margin: 2px 15px;
+    padding: 8px ;
+}
+
+.rightdiv:hover {
+    color: purple;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+}
+
+.mydetail {
+    display: flex;
+    background: linear-gradient(90deg, rgba(92, 90, 111, 0.47942927170868344) 0%, rgba(103, 103, 113, 0.6558998599439776) 33%, rgba(120, 131, 135, 0.6727065826330532) 100%);
+    margin: 100px;
+    width: 1100px;
+    height: 450px;
+    border: #393e46 solid 3px;
+    border-radius: 20px;
+}
+
+.mypic {
+    display: flex;
+    margin: 10px 10px 10px 100px;
+}
+
+.myabout {
+    text-align: center;
+    color: white;
+    margin: 50px 50px 50px 65px;
+}
+
+.myabout h1{
+    font-size: 45px;
+}
+
+.myabout p{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
