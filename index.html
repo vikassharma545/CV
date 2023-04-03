@@ -1,5 +1,3 @@
-<!-- This website is created by VIKAS SHARMA itself -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,73 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikas Sharma</title>
-    <link rel="icon" href="elements/favicon.ico">
-    <link rel="stylesheet" href="CSS/new.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vikas Sharma - Software Developer</title>
+    <link rel="shortcut icon" href="elements/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Sofia|Audiowide|Sacramento|Alkatra|Delicious Handrawn">
 </head>
 
 <body>
-    <nav class="navbar background nav-height">
-        <ul class="leftnav d-flex">
-            <div class="logo"><img src="elements/welcome_pic.jpeg" alt="logo"></div>
-            <li>Welcome to my Website</li>
-        </ul>
-        <ul class="rightnav d-none">
-            <li class="rightlist"> <a href="/index.html">🏠 Home</a> </li>
-            <li class="rightlist"> <a href="/other_site/about.html">👤 About</a> </li>
-            <li class="rightlist"> <a href="/other_site/notes.html">📝 Notes</a> </li>
-            <li class="rightlist"> <a href="/other_site/project.html">🖥 Projects</a> </li>
-        </ul>
-        <div class="burger">
-            <li class="line"></li>
-            <li class="line"></li>
-            <li class="line"></li>
+    <div class="first-container">
+        <img src="elements/cloud.png" alt="cloud-img" class="top-cloud">
+        <div>
+            <h1 id="i-am-vikas">I'm Vikas.</h1>
+            <p id="a-programmer">a <span
+                    style="text-decoration: underline;">pro</span>grammer</p>
         </div>
-    </nav>
+        <img src="elements/cloud.png" alt="cloud-img" class="bottom-cloud">
+        <img src="elements/mountain.png" alt="mountain-img" class="mountain">
+    </div>
 
-    <section class="section1 background">
-        <div class="mydetail">
-            <div class="myabout">
-                <h4 style="font-family: 'Odibee Sans', cursive; font-size:2em; ">Hello I'm </h4>
-                <br>
-                <h3 style="font-family: 'Odibee Sans', cursive; font-size:2em;">VIKAS SHARMA</h3>
-                <br>
-                <p>Behind every success not confirm that is any person but i'm confirm it is due to only your hardwork
-                    so keep going
-                </p>
+    <hr id="line-between-first-and-second-container">
+
+    <div class="second-container">
+        <img src="elements/my pic-modified.png" alt="personal pic" id="my-pic">
+        <h3>Hello :)</h3>
+        <p id="my-intro">I'm a software developer with a passion for exploring new opportunities and pushing the
+            boundaries of what's possible. My personal website is a platform for me to showcase my experience, projects,
+            and ideas with the world. I'm driven by a desire to create innovative solutions that make a positive impact
+            on people's lives. With a commitment to lifelong learning and a willingness to take risks, I'm excited to
+            see where my skills and passion take me.</p>
+    </div>
+
+    <hr id="line-between-second-and-third-container">
+
+    <div class="third-container">
+        <h1>My Works</h1>
+        <img src="https://pixabay.com/get/g8678aa0344c4e4e99a9294bed131f8c27f5127c25aaadc9f670276d87b10256c9a75a5703097c5db5f6f96f03d1322f799dd5219d8c07469fd7e869a03d148f39966e89c21e4530d51924599926a49de_640.png" alt="laptop-work-img" id="work-img">
+        <div class="projects">
+            <div id="project-1">
+                <a href="https://github.com/vikassharma545/Download-historical-Stock-data-Free-From-Zerodha" target="_blank" style="text-decoration: none; color: black;">
+                    <img src="elements/project1-img.jpg" alt="project1-img" class="project-img">
+                    <p class="project-para" id="project-1-para"> For this project, I developed a Python script that allows users to download historical stock market data using the background data provided by Zerodha broker. The script uses the Zerodha Kite Connect API to retrieve the data, which includes information on stock prices, volumes, and market trends. With this data, users can analyze market trends and make informed investment decisions. The script is designed to be user-friendly and can be customized to suit different user needs, such as selecting specific stocks, time periods, and data formats. By making this historical data more accessible and easy to use, I hope to help users make smarter investment decisions and achieve their financial goals. </p>
+                </a>
+                </div>
+            <div id="project-2">
+                <a href="https://github.com/vikassharma545/Zerodha-Candle-Algo-code" target="_blank" style="text-decoration: none; color: black;">
+                    <img src="elements/project2-img.jpg" alt="project2-img" class="project-img">
+                    <p class="project-para" id="project-2-para"> As part of this project, my team and I developed a cutting-edge backtesting strategy for algorithmic trading using Python and SQL. We leveraged candle close data from Zerodha broker, fetched using SQL, to develop an algorithmic trading strategy in Python that could be backtested on historical data. By comparing the performance of our backtested strategy with our ongoing live strategy, we were able to identify areas for improvement and optimize our approach. The project required extensive knowledge of financial markets, as well as advanced programming skills in Python and SQL. Ultimately, the success of the project allowed us to achieve better results in our investments, giving us a significant competitive advantage in the market.</p>
+                </a>
             </div>
-            <div class="mypic">
-                <img src="elements/mypic.png" alt="">
+            <div id="project-3">
+                <a href="https://github.com/vikassharma545/Zerodha-Algo-Trade-Without-API-Cost" target="_blank" style="text-decoration: none; color: black;">
+                    <img src="elements/project3-img.jpg" alt="project3-img" class="project-img">
+                    <p class="project-para" id="project-3-para"> My latest project involves building a Python SDK that will allow users to interact with the Zerodha API free of charge. By developing this SDK, I aim to help traders and investors access the platform's features and functionality directly from their Python code, without incurring additional costs. This project leverages the power of REST APIs and the simplicity of Python to provide a valuable tool for financial analysis and trading. As I continue to develop this project, I am excited to explore new possibilities and use cases for Python in the world of finance. Through this project, I hope to contribute to the open-source Python community and provide a useful tool for traders and investors looking to enhance their workflows.</p>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="section2 about">
-        <div class="about-container">
-            <h1 class="aboutme">About me</h1>
+    <hr id="line-between-third-and-fourth-container">
 
+    <div class="fourth-container">
+        <h1>My Skills</h1>
+        <img src="https://cdn.pixabay.com/photo/2018/05/02/08/37/skills-3367965__480.jpg" alt="skill-img" id="skill-img">
+        <div class="skills">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/240px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png" alt="JAVA">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/242px-Python-logo-notext.svg.png" alt="Python">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" alt="HTML">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" alt="CSS">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/200px-MySQL_logo.svg.png" alt="My SQL">
+            <img src="https://nodejs.org/static/images/logo.svg" alt="Node JS">
+            <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Boot Strap">
+            <img src="https://static.javatpoint.com/images/javascript/javascript_logo.png" alt="JAVA Script">
+            <img src="https://core.telegram.org/file/811140934/1/tbDSLHSaijc/fdcc7b6d5fb3354adf" alt="telegram API">
+            <img src="https://kite.trade/static/images/logo.svg" alt="Kite API">
+            <img src="https://symphonyfintech.com/xtsapi/images/logo.svg" alt="XTS API">
+            
         </div>
-    </section>
+    </div>
 
-    <section class=" section3 footer background">
-        <footer>
-            <div class="icon-container">
-                <a href="https://www.facebook.com/vikassharma2252/" target="_blank" class=" fa fa-facebook"></a>
-                <a href="https://www.google.com/" target="_blank" class=" fa fa-google"></a>
-                <a href="https://www.linkedin.com/in/vikas-sharma-2ab7a1204/" target="_blank"
-                    class="fa fa-linkedin"></a>
-                <a href="https://www.youtube.com/" target="_blank" class=" fa fa-youtube"></a>
-                <a href="https://www.instagram.com/vikas_sharma.yarr" target="_blank" class=" fa fa-instagram"></a>
-                <a href="https://github.com/vikassharma545" target="_blank" class="fa fa-github"></a>
-            </div>
-            <p class="text-footer">
-                Copyright &copy; 2027 -All rights reserved
-            </p>
-        </footer>
-    </section>
+    <div class="fotter">
 
-    <script src="java-script/js.js"></script>
+    </div>
 </body>
 
 </html>
